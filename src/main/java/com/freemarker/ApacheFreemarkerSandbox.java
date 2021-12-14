@@ -52,7 +52,7 @@ public class ApacheFreemarkerSandbox {
         /*
         Simple test creating an output from a template File.
          */
-        final FreemarketOutputFromFile freemarketFile = new FreemarketOutputFromFile();
+        final FreemarkerOutputFromFile freemarketFile = new FreemarkerOutputFromFile();
         final String resultFile = freemarketFile.createOutput("freemarker_sample1.txt", model);
         LOGGER.debug("FromFile Output result: {}", resultFile);
     }

@@ -13,7 +13,7 @@ import java.util.Map;
 /**
  * Class responsible for creating a Freemarker output from a File.
  */
-public class FreemarketOutputFromFile {
+public class FreemarkerOutputFromFile {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ApacheFreemarkerSandbox.class);
 
