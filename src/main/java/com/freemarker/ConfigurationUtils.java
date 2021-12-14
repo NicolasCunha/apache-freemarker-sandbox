@@ -3,6 +3,9 @@ package com.freemarker;
 import freemarker.template.Configuration;
 import freemarker.template.TemplateExceptionHandler;
 
+/**
+ * Utilities class to create a {@link freemarker.template.Configuration} object.
+ */
 public class ConfigurationUtils {
 
     private ConfigurationUtils() {
