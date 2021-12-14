@@ -13,7 +13,7 @@ public class ConfigurationUtils {
     }
 
     /**
-     * Get default {@link freemarker.template.Configuration} object.
+     * Create a default {@link freemarker.template.Configuration} object.
      * <a href="https://freemarker.apache.org/docs/pgui_quickstart_createconfiguration.html"> Configuration reference.</a>
      *
      * @return {@link freemarker.template.Configuration} instance.
